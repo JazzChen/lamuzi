@@ -68,3 +68,5 @@ gem 'twitter-bootswatch-rails'
 
 # twitter bootstrap helpers gem, e.g., alerts etc...
 gem 'twitter-bootswatch-rails-helpers'
+
+gem 'passenger'

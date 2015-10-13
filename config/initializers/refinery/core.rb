@@ -4,7 +4,7 @@ Refinery::Core.configure do |config|
   config.rescue_not_found = Rails.env.production?
 
   # When true this will force SSL redirection in all Refinery backend controllers.
-  # config.force_ssl = false
+  # config.force_ssl = false 
 
   # Set the S3 options using means other than securely by environment variables.
   # If you have to.
@@ -27,7 +27,7 @@ Refinery::Core.configure do |config|
   # config.base_cache_key = :refinery
 
   # Site name
-  # config.site_name = "Company Name"
+  config.site_name = "元江辣木"
 
   # This activates Google Analytics tracking within your website. If this
   # config is left blank or set to UA-xxxxxx-x then no remote calls to
